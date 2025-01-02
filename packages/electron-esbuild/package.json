@@ -49,6 +49,10 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@sindresorhus/is": "^6.3.0",
     "chokidar": "^3.5.3",
