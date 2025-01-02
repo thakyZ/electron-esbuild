@@ -48,18 +48,17 @@
     "access": "public"
   },
   "dependencies": {
-    "fast-glob": "^3.3.0",
+    "fast-glob": "^3.3.2",
     "kolorist": "^1.8.0",
     "minimist": "^1.2.8",
-    "rimraf": "^5.0.1"
+    "rimraf": "^6.0.1"
   },
   "devDependencies": {
-    "@types/cross-spawn": "^6.0.2",
-    "@types/minimist": "^1.2.2",
-    "@types/node": "^18.16.19",
-    "@types/rimraf": "^3.0.2",
-    "esbuild": "^0.21.3",
-    "typescript": "~5.4.5"
+    "@types/cross-spawn": "^6.0.6",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^22.10.4",
+    "esbuild": "^0.24.2",
+    "typescript": "~5.7.2"
   },
   "peerDependencies": {
     "esbuild": "^0.16.x"
