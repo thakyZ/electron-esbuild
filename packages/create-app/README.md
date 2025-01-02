@@ -1,25 +1,25 @@
-# @electron-esbuild/create-app
+# @nekogaming/create-electron-esbuild
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kiyozz/electron-esbuild/blob/HEAD/LICENSE)
-[![@electron-esbuild/create-app version](https://img.shields.io/npm/v/@electron-esbuild/create-app.svg)](./CHANGELOG.md)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/thakyZ/electron-esbuild/blob/HEAD/LICENSE)
+[![@nekogaming/create-electron-esbuild version](https://img.shields.io/npm/v/@nekogaming/create-electron-esbuild.svg)](./CHANGELOG.md)
 
-The easiest way to get started with Esbuild/Vite in Electron by using `@electron-esbuild/create-app`. This simple CLI tool enables you to quickly start building a new Electron application.
+The easiest way to get started with Esbuild/Vite in Electron by using `@nekogaming/create-electron-esbuild`. This simple CLI tool enables you to quickly start building a new Electron application.
 
 With pnpm:
 
-    pnpm create @electron-esbuild/app
+    pnpm create @nekogaming/electron-esbuild
 
 With npm:
 
-    npm init @electron-esbuild/app
+    npm init @nekogaming/electron-esbuild
 
 With yarn:
 
-    yarn create @electron-esbuild/app
+    yarn create @nekogaming/electron-esbuild
 
 ## Options
 
-`@electron-esbuild/create-app` comes with the following options:
+`@nekogaming/create-electron-esbuild` comes with the following options:
 
 - -t, --template use template
 - -p, --package-manager use this package manager [npm, pnpm, yarn]

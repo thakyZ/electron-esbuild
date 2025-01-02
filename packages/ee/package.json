@@ -1,5 +1,5 @@
 {
-  "name": "@electron-esbuild/ee",
+  "name": "@nekogaming/electron-esbuild-ee",
   "version": "0.6.0",
   "keywords": [
     "esbuild",
@@ -10,10 +10,21 @@
   "description": "electron-esbuild internal source code builder. ee for electron-esbuild",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kiyozz/electron-esbuild.git",
+    "url": "git+https://github.com/thakyZ/electron-esbuild.git",
     "directory": "packages/ee"
   },
-  "author": "Kiyozz",
+  "author": {
+    "name": "Neko Boi Nick",
+    "email": "950594+thakyZ@users.noreply.github.com",
+    "url": "https://github.com/thakyZ"
+  },
+  "contributors": [
+    {
+      "name": "Kévin TURMEL",
+      "email": "kevinturmel@gmail.com",
+      "url": "https://github.com/Kiyozz"
+    }
+  ],
   "license": "MIT",
   "bin": {
     "ee": "./dist/index.js"

@@ -1,11 +1,13 @@
-# electron-esbuild
+# @nekogaming/electron-esbuild
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kiyozz/electron-esbuild/blob/HEAD/LICENSE)
-![electron-esbuild version](https://img.shields.io/npm/v/electron-esbuild.svg?label=%20)
-![github-actions](https://github.com/Kiyozz/electron-esbuild/workflows/CI/badge.svg)
-![electron-esbuild downloads](https://img.shields.io/npm/dm/electron-esbuild.svg)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/thakyZ/electron-esbuild/blob/HEAD/LICENSE)
+![@nekogaming/electron-esbuild version](https://img.shields.io/npm/v/@nekogaming/electron-esbuild.svg?label=%20)
+![github-actions](https://github.com/thakyZ/electron-esbuild/workflows/CI/badge.svg)
+![@nekogaming/electron-esbuild downloads](https://img.shields.io/npm/dm/@nekogaming/electron-esbuild.svg)
 
 Easily integrate `esbuild`/`vite` for your Electron environment.
+
+Based on Kiyozz's [https://github.com/Kiyozz/electron-esbuild](https://github.com/Kiyozz/electron-esbuild)
 
 ## Features
 
@@ -20,11 +22,11 @@ Easily integrate `esbuild`/`vite` for your Electron environment.
 
 ## Packages
 
-| Package                                             | Version                                                                                                                            |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [electron-esbuild](packages/electron-esbuild)       | [![electron-esbuild version](https://img.shields.io/npm/v/electron-esbuild.svg?label=%20)](packages/electron-esbuild/CHANGELOG.md) |
-| [@electron-esbuild/create-app](packages/create-app) | [![create-app version](https://img.shields.io/npm/v/@electron-esbuild/create-app.svg?label=%20)](packages/create-app/CHANGELOG.md) |
-| [@electron-esbuild/ee](packages/ee)                 | ![ee version](https://img.shields.io/npm/v/@electron-esbuild/ee.svg?label=%20)                                                     |
+| Package                                                    | Version                                                                                                                                        |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [@nekogaming/electron-esbuild](packages/electron-esbuild)  | [![electron-esbuild version](https://img.shields.io/npm/v/@nekogaming/electron-esbuild.svg?label=%20)](packages/electron-esbuild/CHANGELOG.md) |
+| [@nekogaming/create-electron-esbuild](packages/create-app) | [![create-app version](https://img.shields.io/npm/v/@nekogaming/create-electron-esbuild.svg?label=%20)](packages/create-app/CHANGELOG.md)      |
+| [@nekogaming/electron-esbuild-ee](packages/ee)             | ![ee version](https://img.shields.io/npm/v/@nekogaming/electron-esbuild-ee.svg?label=%20)                                                      |
 
 ## Development
 

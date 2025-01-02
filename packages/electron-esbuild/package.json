@@ -1,5 +1,5 @@
 {
-  "name": "electron-esbuild",
+  "name": "@nekogaming/electron-esbuild",
   "version": "9.0.0",
   "keywords": [
     "esbuild",
@@ -13,10 +13,21 @@
   "description": "Use esbuild with Electron for blazing fast compilation",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kiyozz/electron-esbuild.git",
+    "url": "git+https://github.com/thakyZ/electron-esbuild.git",
     "directory": "packages/electron-esbuild"
   },
-  "author": "Kiyozz",
+  "author": {
+    "name": "Neko Boi Nick",
+    "email": "950594+thakyZ@users.noreply.github.com",
+    "url": "https://github.com/thakyZ"
+  },
+  "contributors": [
+    {
+      "name": "Kévin TURMEL",
+      "email": "kevinturmel@gmail.com",
+      "url": "https://github.com/Kiyozz"
+    }
+  ],
   "license": "MIT",
   "bin": {
     "electron-esbuild": "./dist/index.js"

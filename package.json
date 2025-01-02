@@ -1,13 +1,20 @@
 {
-  "name": "electron-esbuild-monorepo",
+  "name": "@nekogaming/electron-esbuild-monorepo",
   "version": "8.0.0",
   "description": "Use esbuild/vite with Electron for blazing fast compilation",
-  "repository": "https://github.com/Kiyozz/electron-esbuild",
+  "repository": "https://github.com/thakyZ/electron-esbuild",
   "author": {
-    "name": "Kévin TURMEL",
-    "email": "kevinturmel@gmail.com",
-    "url": "https://github.com/Kiyozz"
+    "name": "Neko Boi Nick",
+    "email": "950594+thakyZ@users.noreply.github.com",
+    "url": "https://github.com/thakyZ"
   },
+  "contributors": [
+    {
+      "name": "Kévin TURMEL",
+      "email": "kevinturmel@gmail.com",
+      "url": "https://github.com/Kiyozz"
+    }
+  ],
   "private": true,
   "engines": {
     "node": ">=14.18",

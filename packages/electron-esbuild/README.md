@@ -1,21 +1,21 @@
-# electron-esbuild
+# @nekogaming/electron-esbuild
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kiyozz/electron-esbuild/blob/HEAD/LICENSE)
-[![electron-esbuild version](https://img.shields.io/npm/v/electron-esbuild.svg?label=%20)](./CHANGELOG.md)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/thakyZ/@nekogaming/electron-esbuild/blob/HEAD/LICENSE)
+[![@nekogaming/electron-esbuild version](https://img.shields.io/npm/v/@nekogaming/electron-esbuild.svg?label=%20)](./CHANGELOG.md)
 
 ## Getting Started
 
 With pnpm:
 
-    pnpm create @electron-esbuild/app
+    pnpm create @nekogaming/electron-esbuild
 
 With npm:
 
-    npm init @electron-esbuild/app
+    npm init @nekogaming/electron-esbuild
 
 With yarn:
 
-    yarn create @electron-esbuild/app
+    yarn create @nekogaming/electron-esbuild
 
 **All configurations are already setup for you.**
 

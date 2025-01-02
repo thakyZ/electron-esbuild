@@ -1,8 +1,8 @@
 # @electron-esbuild/ee
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kiyozz/electron-esbuild/blob/HEAD/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/thakyZ/electron-esbuild/blob/HEAD/LICENSE)
 
-electron-esbuild internal builder
+@nekogaming/electron-esbuild internal builder
 
 ## Development
 
