@@ -72,7 +72,8 @@ const build = async ({
     const cTask = task("CHECKING TYPES");
     const tscResult = spawnSync("tsc", ["-p", tsProject], {
       cwd: process.cwd(),
-      stdio: "inherit"
+      stdio: "inherit",
+      shell: process.platform === "win32"
     });
     if (tscResult.error || tscResult.status !== 0) {
       cTask.error();

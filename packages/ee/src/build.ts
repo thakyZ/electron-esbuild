@@ -107,6 +107,7 @@ export const build = async ({
     const tscResult = spawnSync('tsc', ['-p', tsProject], {
       cwd: process.cwd(),
       stdio: 'inherit',
+      shell: process.platform === 'win32',
     })
 
     if (tscResult.error || tscResult.status !== 0) {

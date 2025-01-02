@@ -49,6 +49,8 @@ class _ApplicationStarter {
       [outputEntryFile, ...this._args],
       {
         stdio: 'inherit',
+        /** @see https://github.com/nodejs/node/issues/52554 */
+        shell: _isWindows,
       },
     )
 
