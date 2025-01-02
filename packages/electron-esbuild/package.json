@@ -39,7 +39,7 @@
   },
   "engines": {
     "node": ">=18.15.0",
-    "pnpm": "8"
+    "pnpm": "9"
   },
   "scripts": {
     "build": "ee 'src/**' --module --format esm --sourcemap --clean-outdir --outdir dist --target node16",
@@ -66,7 +66,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@electron-esbuild/ee": "workspace:*",
+    "@nekogaming/electron-esbuild-ee": "workspace:*",
     "@types/cross-spawn": "^6.0.2",
     "@types/has": "^1.0.0",
     "@types/js-yaml": "^4.0.5",
@@ -77,8 +77,8 @@
     "vite": "^5.2.11"
   },
   "peerDependencies": {
-    "esbuild": "0.21.x",
-    "vite": "5.x"
+    "esbuild": ">=0.21.x",
+    "vite": ">=5.x"
   },
   "peerDependenciesMeta": {
     "vite": {

@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "bin": {
-    "create-app": "./dist/index.js"
+    "create-electron-esbuild": "./dist/index.js"
   },
   "exports": "./dist/index.js",
   "engines": {
@@ -56,7 +56,7 @@
     "minimist": "^1.2.8"
   },
   "devDependencies": {
-    "@electron-esbuild/ee": "workspace:*",
+    "@nekogaming/electron-esbuild-ee": "workspace:*",
     "@types/cross-spawn": "^6.0.2",
     "@types/minimist": "^1.2.2",
     "@types/node": "^18.16.19",
