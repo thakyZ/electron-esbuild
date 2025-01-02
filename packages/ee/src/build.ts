@@ -5,8 +5,11 @@
  */
 
 import { spawnSync } from 'child_process'
-import { build as esbuildBuild } from 'esbuild'
-import { BuildOptions as EsbuildBuildOptions, Format } from 'esbuild'
+import {
+  build as esbuildBuild,
+  BuildOptions as EsbuildBuildOptions,
+  Format,
+} from 'esbuild'
 import glob from 'fast-glob'
 import { bgCyan, bgGreen, bgRed, black, cyan, green, red } from 'kolorist'
 import { platform } from 'node:os'

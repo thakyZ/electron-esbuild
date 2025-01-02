@@ -39,7 +39,7 @@
   "scripts": {
     "build": "ee 'src/**' --module --format esm --sourcemap --clean-outdir --outdir dist --target node16",
     "prepublishOnly": "ee 'src/**' --module --format esm --sourcemap --clean-outdir --outdir dist --target node16 --check-types --ts-project tsconfig.types.json",
-    "lint": "eslint src --ext mts,mjs,ts,js"
+    "lint": "eslint src -c ../../eslint.config.mjs"
   },
   "files": [
     "dist",

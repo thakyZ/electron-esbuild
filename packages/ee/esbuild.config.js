@@ -26,6 +26,6 @@ await build({
   platform: 'node',
   sourcemap: true,
   format: 'esm',
-  target: 'node20',
+  target: 'node22',
   logLevel: 'info',
 })

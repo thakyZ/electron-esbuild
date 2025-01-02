@@ -6,7 +6,7 @@
 
 import deepMerge from 'deepmerge'
 import nodeModule from 'node:module'
-import { InlineConfig } from 'vite'
+import { type InlineConfig } from 'vite'
 
 import type { Configurator } from './base.configurator.js'
 import type { EnvConfig } from '../config.js'

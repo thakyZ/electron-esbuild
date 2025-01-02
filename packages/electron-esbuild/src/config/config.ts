@@ -5,7 +5,7 @@
  */
 
 import { BuildOptions } from 'esbuild'
-import { InlineConfig } from 'vite'
+import { type InlineConfig } from 'vite'
 
 import { Configurator } from './configurators/base.configurator.js'
 import { EsbuildConfigurator } from './configurators/esbuild.configurator.js'

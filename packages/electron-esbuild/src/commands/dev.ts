@@ -90,7 +90,6 @@ class _ApplicationStarter {
   }
 
   private _cleanupProcess() {
-    // eslint-disable-next-line no-undef
     const clean = (signal: NodeJS.Signals) => {
       process.on(signal, () => {
         _logger.log('Cleanup before exit...')

@@ -5,7 +5,7 @@
  */
 
 import { BuildOptions } from 'esbuild'
-import { InlineConfig } from 'vite'
+import { type InlineConfig } from 'vite'
 
 import { TypeConfig } from './enums.js'
 
